@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.1"
+      }
+    ],
+    "applicationType": "microservice",
+    "baseName": "test",
+    "jhipsterVersion": "7.2.0",
+    "skipClient": true,
+    "withAdminUi": false,
+    "skipUserManagement": true,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1678363003868,
+    "serviceDiscoveryType": false,
+    "reactive": false,
+    "authenticationType": "oauth2",
+    "packageName": "testapp",
+    "serverPort": "8081",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "microserviceDependencies": "entando",
+    "generateMicroFrontends": "always",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "NDVhMWQyZTE1ZGU4MDExMTcwZmVmYTA2ODhkODMxOGUyYzRjNjA3NjEyMmI1ZWMwMDI5M2U3YjE5MTdkMmZhYmU2NTljZDRlZTYzMzNmYWJkNGUxMDk3ZWZhM2I4MWQwY2E4MjAwOTM0NWE3NTg4YmIwZmQ2ODQ4MDY2MjhkMzg=",
+    "languages": ["en"],
+    "enableGradleEnterprise": false
+  }
+}
